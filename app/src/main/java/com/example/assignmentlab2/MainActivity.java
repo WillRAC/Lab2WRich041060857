@@ -14,13 +14,14 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main_linear
+        );
 
         EditText txt =  (EditText) findViewById(R.id.editText);
-        String edTxts = txt.getText().toString();
+        String edTexts = txt.getText().toString();
 
 
-        TextView textv = (TextView)findViewById(R.id.textView1);
+        TextView texts = (TextView)findViewById(R.id.textView1);
 
         Button pMe = findViewById(R.id.PressMe);
 
@@ -28,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                textv.setText(edTxts);
+                texts.setText(edTexts);
 
                 Toast.makeText(getApplicationContext(), "Label has been Updated", Toast.LENGTH_LONG).show();
 
