@@ -4,5 +4,6 @@
     <string name="button_text">Press Me</string>
     <string name="switch_text">Switch on/off</string>
     <string name="check_text">Check this out!</string>
+    <string name="I_Love">I Love Android!</string>
 
 </resources>

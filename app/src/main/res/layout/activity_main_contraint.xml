@@ -14,7 +14,7 @@
         android:layout_column="0"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="52dp"
-        android:text="I love Android"
+        android:text="@string/I_Love"
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/switch1"
         app:layout_constraintStart_toStartOf="parent" />
@@ -40,7 +40,7 @@
         android:layout_column="0"
         android:layout_marginEnd="28dp"
         android:layout_marginBottom="76dp"
-        android:text="Press Me"
+        android:text="@string/button_text"
         app:layout_constraintBottom_toTopOf="@+id/editText"
         app:layout_constraintEnd_toStartOf="@+id/checkBox"
         app:layout_constraintHorizontal_bias="0.0"
