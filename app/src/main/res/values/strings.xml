@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">AssignmentLab2</string>
+    <string name="Toast_M">Label has been Updated</string>
+    <string name="button_text">Press Me</string>
+    <string name="switch_text">Switch on/off</string>
+    <string name="check_text">Check this out!</string>
+
 </resources>

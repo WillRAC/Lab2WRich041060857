@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AssignmentLab2</string>
+    <string name="Toast_M">Létiquette a été mise à jour!</string>
+    <string name="button_text">Presse-moi</string>
+    <string name="switch_text">Allumer / éteindre</string>
+    <string name="check_text">Regarde ça!</string>
+</resources>
