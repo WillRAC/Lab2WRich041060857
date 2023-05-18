@@ -26,6 +26,7 @@
                 android:id="@+id/UsaFlag"
                 android:layout_width="192dp"
                 android:layout_height="wrap_content"
+                android:contentDescription="flag"
                 app:srcCompat="@drawable/flag" />
 
         </LinearLayout>
@@ -37,8 +38,8 @@
 
             <Switch
                 android:id="@+id/switch1"
-                android:layout_width="171dp"
-                android:layout_height="wrap_content"
+                android:layout_width="172dp"
+                android:layout_height="54dp"
                 android:text="@string/switch_text" />
 
         </LinearLayout>
@@ -69,13 +70,13 @@
 
         </LinearLayout>
 
-        <EditText
-            android:id="@+id/editText"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:inputType="text"
-            android:text="@string/button_text" />
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/button_text" />
 
 
     </LinearLayout>
