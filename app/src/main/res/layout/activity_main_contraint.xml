@@ -8,14 +8,14 @@
 
     <TextView
         android:id="@+id/textView1"
-        android:layout_width="193dp"
-        android:layout_height="50dp"
+        android:layout_width="191dp"
+        android:layout_height="82dp"
         android:layout_row="0"
         android:layout_column="0"
         android:layout_marginStart="16dp"
-        android:layout_marginBottom="52dp"
+        android:layout_marginBottom="68dp"
         android:text="@string/I_Love"
-        android:textSize="30dp"
+        android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/switch1"
         app:layout_constraintStart_toStartOf="parent" />
 
@@ -25,10 +25,9 @@
         android:layout_height="72dp"
         android:layout_row="1"
         android:layout_column="0"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="60dp"
         android:text="@string/switch_text"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.529"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -39,12 +38,14 @@
         android:layout_row="2"
         android:layout_column="0"
         android:layout_marginEnd="28dp"
-        android:layout_marginBottom="76dp"
+        android:layout_marginBottom="220dp"
         android:text="@string/button_text"
         app:layout_constraintBottom_toTopOf="@+id/editText"
         app:layout_constraintEnd_toStartOf="@+id/checkBox"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/switch1"
+        app:layout_constraintVertical_bias="1.0" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -60,15 +61,15 @@
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="251dp"
-        android:layout_height="112dp"
+        android:layout_width="279dp"
+        android:layout_height="160dp"
         android:layout_row="3"
         android:layout_column="0"
-        android:layout_marginTop="72dp"
         android:ems="10"
         android:inputType="text"
         android:text="@string/button_text"
         android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
